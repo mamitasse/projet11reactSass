@@ -1,0 +1,39 @@
+/* Font pour le site */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import "./components/BanniereAccueil/BanniereAccueil.scss";
+@import "./components/cards/cards.scss";
+@import "./components/carrousel/carrousel.scss";
+@import "./components/Collapse/Collapse.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Header/Header.scss";
+@import "./components/LocationList/LocationList.scss";
+@import "./components/Tag/Tag.scss";
+@import "./pages/About/About.scss";
+@import "./pages/ErrorPage/ErrorPage.scss";
+@import "./pages/Home/Home.scss";
+@import "./pages/Logement/Logement.scss";
+
+body {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 500;
+  max-width: 1440px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+* {
+  margin: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: #ff6060;
+}

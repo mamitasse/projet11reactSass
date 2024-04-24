@@ -1,0 +1,41 @@
+.cards {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  position: relative;
+  &_gradients {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.65) 100%
+    );
+    border-radius: 10px;
+  }
+  &_gradients:hover {
+    opacity: 50%;
+  }
+  &_img {
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  &_title{
+    color: #ffffff;
+    position: absolute;
+    left: 15px;
+    right: 5px;
+    bottom: 10px;
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+
+  }
+}

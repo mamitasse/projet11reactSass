@@ -1,0 +1,55 @@
+/********** Desktop ************/
+.main_about {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+}
+
+/*Banner*/
+.banner-apropos {
+  display: flex;
+  position: relative;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  height: 223px;
+  margin-bottom: 40px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+
+  &_img {
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 25px;
+    opacity: 0.6;
+    object-fit: cover;
+  }
+}
+
+/********** Tablette **********/
+@media (max-width: 992px) {
+  .main_about {
+    background-color: white;
+  }
+  /*Banner*/
+  .banner-apropos {
+    border-radius: 10px;
+    &_img {
+      height: 100%;
+      border-radius: 10px;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+
+    }
+  }

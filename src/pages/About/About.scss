@@ -45,11 +45,9 @@
   .banner-apropos {
     border-radius: 10px;
     &_img {
-      height: 100%;
       border-radius: 10px;
       -o-object-fit: cover;
       object-fit: cover;
     }
-
-    }
   }
+}

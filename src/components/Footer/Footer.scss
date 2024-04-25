@@ -1,16 +1,17 @@
 footer {
   background-color: #000000;
-  height: 150px;
+
   width: 100%;
-  height: 150px;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  position:initial;
 }
 
 #footer-container {
-  height: 150px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,13 +35,19 @@ footer {
 
 @media screen and (max-width: 992px) {
   #footer-container > p {
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     font-size: 12px;
   }
 
   footer {
     bottom: 0%;
+    margin-bottom: -30px;
 
-    height: 120px;
+    
+  }
+  #footer-container > img {
+  
+    padding-top: 43px;
   }
 }
+

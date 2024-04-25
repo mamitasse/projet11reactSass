@@ -41,12 +41,13 @@
   padding: 25px 10px 10px 10px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 792px) {
   .collapse {
     width: 100%;
   }
   .header-collapse {
     height: 30px;
+    font-size: 13px;
   }
   .content-collapse {
     font-size: 12px;

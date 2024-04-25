@@ -35,6 +35,24 @@
     margin-bottom: 20px;
     text-decoration: underline;
   }
-
 }
 
+/********** Tablette **********/
+@media (max-width: 792px) {
+  .errorContainer {
+    /* 404 */
+    &__Number {
+      font-size: 96px;
+    }
+    &__Text {
+      font-family: Montserrat;
+      font-size: 18px;
+      
+      line-height: 51px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #ff6060;
+      margin-bottom: 70px;
+    }
+  }
+}

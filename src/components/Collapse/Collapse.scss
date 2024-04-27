@@ -15,11 +15,11 @@
   border-radius: 5px;
   height: 40px;
   display: flex;
-  &_title{
+  &_title {
     color: #ffffff;
     margin: 5px 10px 5px 10px;
   }
-  &_fleche{
+  &_fleche {
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
@@ -30,7 +30,6 @@
     transform: rotate(-180deg);
   }
 }
-
 
 .content-collapse {
   background-color: #f6f6f6;
@@ -52,9 +51,11 @@
   .content-collapse {
     font-size: 12px;
     margin-bottom: 15px;
+    list-style: none;
   }
   .collapse-block {
     margin-left: 0;
     margin-right: 0;
+    list-style: none;
   }
 }
